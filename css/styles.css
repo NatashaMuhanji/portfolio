@@ -1,0 +1,125 @@
+/*colors for the website
+#26292B, #2E3239, #5F7ADB, #A2B2EE */
+ 
+body {
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin: 0 auto 0 auto;
+    
+}
+
+.text-left {
+    margin-bottom: 0;
+}
+
+h2 {
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: grey;
+}
+/*----------Header--------------*/
+#header {
+    padding: 8px;
+}
+
+.navbar {
+    opacity: 0.95;
+}
+
+/*----------Introduction--------------*/
+.intro {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+/*----------About/Education/Experience--------------*/
+#sub-about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#education {
+    padding-right: 30px;
+}
+
+#experience {
+    padding-right: 30px;
+}
+
+/*----------Progress Bar--------------*/
+.progress {
+    --bs-progress-height: 1rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #212529;
+    --bs-progress-bar-transition: width 0.9s ease;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill-name {
+    display: block;
+    font-weight: 500;
+}
+.value {
+    float: right;
+    font-style: normal;
+}
+
+
+/*----------Footer Icons--------------*/
+.footer-icons {
+    text-align: center;
+}
+.divcont {
+    justify-content: space-around;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      color: white;
+  }
+  
+  .fa-twitter {
+    background: #212529;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #212529;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #212529;
+    color: white;
+  }
+
+/*----------Buttons--------------*/
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
