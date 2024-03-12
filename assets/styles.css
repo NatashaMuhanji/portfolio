@@ -434,6 +434,9 @@ section#contact .sub-contact .contact-info h3{
 section#contact .sub-contact .contact-info p{
     line-height: 2;
 }
+section#contact .sub-contact .contact-info p a {
+  font-size: 20px;
+}
 section#contact .sub-contact .contact-image{
     width: 40%;
     display: flex;
