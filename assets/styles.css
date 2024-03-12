@@ -91,10 +91,10 @@ a{
 
 /* hero section */
 section#intro{
-    height: 80vh;
-}
-section#intro .intro{
-    padding-top: 10rem;    
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 section#intro .intro h1 span#name,
 section#intro .intro h1 span#dev{
@@ -133,7 +133,7 @@ section#about div.about-info .about-content .about-links a{
 }
 section#about div.about-info .about-content .about-links a:hover{
     border: 1px solid transparent;
-    box-shadow: 1px 1px 1px 1px rgb(250, 235, 215);
+    box-shadow: 0 0 3px 1px rgb(250, 235, 215);
 }
 
 /* skills */
@@ -228,6 +228,7 @@ section#skills .devs .dev{
   .front {
     transform: rotateY(180deg);
     color: white;
+    backdrop-filter: blur(3px);
   }
   
   .front .front-content {
@@ -325,7 +326,6 @@ section#skills .devs .dev{
 }
 #projects .projects-card{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 .project{
@@ -340,7 +340,7 @@ section#skills .devs .dev{
   transition: 0.5s ease-out;
   overflow: visible;
   margin-right: 50px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
  }
  
  .project-details {
@@ -370,6 +370,11 @@ section#skills .devs .dev{
     font-size: 20px;
     font-weight: bold;
     margin: auto;
+ }
+ .text-title-info{
+  display: none;
+  font-size: 15px;
+  padding: 20px;
  }
 
  .project-button {
@@ -402,6 +407,13 @@ section#skills .devs .dev{
  /*Hover*/
  .project:hover {
   border: 1px solid rgba(250, 235, 215, 0.788);
+  transition: .5s ease-in-out;
+  .text-title-info{
+    display: contents;
+  }
+  .text-title {
+    font-size: 18px;
+  }
  }
  
  .project:hover .project-button, .project:hover .project-button-demo {
