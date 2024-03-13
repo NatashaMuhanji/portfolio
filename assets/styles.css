@@ -66,7 +66,7 @@ a{
 
 #navbar li a i:hover,
 #navbar li a:hover{
-    color: rgba(250, 235, 215, 0.788);
+  color: rgb(255, 187, 102);
 }
 
 #navbar li a:hover::after,
@@ -74,7 +74,7 @@ a{
     content: "";
     width: 40%;
     height: .125rem;
-    background: rgba(250, 235, 215, 0.788);
+    background: rgb(255, 187, 102);;
     position: absolute;
     bottom: -.25rem;
     left: 1.25rem;
@@ -366,17 +366,19 @@ section#skills .devs .dev{
  }
 
   /*Text*/
+.project-details .text{
+  padding: 20px;
+}
  .text-title {
     font-size: 20px;
     font-weight: bold;
     margin: auto;
+    padding-bottom: 10px;
  }
  .text-title-info{
   display: none;
   font-size: 15px;
-  padding: 20px;
  }
-
  .project-button {
   transform: translate(-50%, 125%);
   width: auto;
@@ -407,12 +409,13 @@ section#skills .devs .dev{
  /*Hover*/
  .project:hover {
   border: 1px solid rgba(250, 235, 215, 0.788);
-  transition: .5s ease-in-out;
   .text-title-info{
     display: contents;
+    transition: .5s ease-in-out;
   }
   .text-title {
     font-size: 18px;
+    color: rgb(255, 187, 102);
   }
  }
  
@@ -425,6 +428,8 @@ section#skills .devs .dev{
  .project-button-demo:hover,
  .project-button:hover{
   transition: .5s ease-in-out;
+  background-color: rgb(255, 187, 102);
+  color: black;
  }
 
 
@@ -442,12 +447,17 @@ section#contact .sub-contact .contact-info h2{
 }
 section#contact .sub-contact .contact-info h3{
     margin: 16px 0 10px 0;
+    color: rgb(255, 187, 102);
 }
 section#contact .sub-contact .contact-info p{
     line-height: 2;
 }
 section#contact .sub-contact .contact-info p a {
   font-size: 20px;
+}
+section#contact .sub-contact .contact-info p a:hover{
+  color: rgb(255, 187, 102);
+  transition: .5s ease-in-out;
 }
 section#contact .sub-contact .contact-image{
     width: 40%;
@@ -460,6 +470,11 @@ section#contact .sub-contact .contact-image img{
     width: 180px;
     border-radius: 50%;
     border: 1px solid rgba(47, 65, 87, 0.274);
+}
+section#contact .sub-contact .contact-image img:hover{
+  transition: .5s ease-in-out;
+  border: 1px solid rgba(250, 235, 215);
+  box-shadow: 0 0 5px 1px rgb(250, 235, 215);
 }
 section#contact .year {
     padding: 30px auto 4px;
