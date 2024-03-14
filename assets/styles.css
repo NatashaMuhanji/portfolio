@@ -513,7 +513,6 @@ section#contact .year {
     content: "";
     width: 40%;
     height: .125rem;
-    background: rgb(12, 7, 11);
     position: absolute;
     bottom: -.25rem;
     left: 1.25rem;
@@ -524,7 +523,6 @@ section#contact .year {
         align-items: center;
     }
     #header .mobile i {
-        color: rgb(15, 20, 15);
         font-size: 24px;
         padding-left: 1.25rem;
     }
@@ -533,10 +531,43 @@ section#contact .year {
         position: absolute;
         top: 30px;
         left: 30px;
-        color: rgb(15, 20, 15);
         font-weight: 700;
     }
     #header #lg-bag {
         display: none;
     }
+    section#about div.about-info .about-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    section#about div.about-info .about-content .about-links a{
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  section#skills .devs {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  section#skills .devs .dev{
+    padding: 40px;
+  }
+  section#skills .skills-heading {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+#projects h2 {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#projects .projects-card {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.project {
+  margin: 40px;
+}
 }
