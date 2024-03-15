@@ -9,7 +9,7 @@ body {
     background: repeat url("/assets/images/back.jpg");
     font-family: "JetBrains Mono", monospace;
     width: 100%;
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
     scroll-behavior: smooth;
 }
 
@@ -575,6 +575,9 @@ section#contact .year {
 @media screen and (max-width: 375px){
   .general-padding{
     padding: 30px;
+  }
+  #header{
+    padding: 10px 30px;
   }
   section#intro .intro h1{
     letter-spacing: 2px;
