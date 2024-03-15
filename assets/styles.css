@@ -571,3 +571,69 @@ section#contact .year {
   margin: 40px;
 }
 }
+
+@media screen and (max-width: 375px){
+  .general-padding{
+    padding: 30px;
+  }
+  section#intro .intro h1{
+    letter-spacing: 2px;
+  }
+  section#about div.about-info{
+    flex-direction: column-reverse;
+  }
+  section#about div.about-info .about-image{
+    display: none;
+  }
+  section#about div.about-info .about-content {
+    margin-left: 0;
+  }
+  section#skills .devs .dev {
+    padding: 20px 20px 20px 0;
+  }
+  section#skills .skills-heading {
+    display: block;
+    margin: 40px 0 20px;
+  }
+  .card {
+    overflow: visible;
+    width: 140px;
+    height: 140px;
+  }
+  .back-content{
+    font-size: 16px;
+  }
+  .front .front-content {
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+  }
+  .description {
+    width: 80%;
+    padding: 5px;
+  }
+  #projects h2 {
+    margin: 30px 0 10px;
+    text-align: start;
+    padding-bottom: 0;
+  }
+  #projects .projects-card {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .project {
+    margin: 40px 0;
+  }
+  section#contact .sub-contact {
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: center;
+  }
+  section#contact .sub-contact .contact-info {
+    width: 100%;
+  }
+  section#contact .sub-contact .contact-image {
+    width: 100%;
+    padding: 10px;
+  }
+}
