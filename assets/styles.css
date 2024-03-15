@@ -635,5 +635,6 @@ section#contact .year {
   section#contact .sub-contact .contact-image {
     width: 100%;
     padding: 10px;
+    display: block;
   }
 }
