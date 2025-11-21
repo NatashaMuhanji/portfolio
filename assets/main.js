@@ -1,3 +1,6 @@
+//Alert on visit
+alert("Hello! Welcome to my site, at the moment it's not responsive to mobile devices, but if you're on big screen, enjoy!");
+
 // Navigation 
 const bar = document.querySelector("#header > div.mobile > i");
 const nav = document.querySelector("#navbar");
