@@ -121,6 +121,9 @@ section#about div.about-info .about-content .about-paragraph .about-heading{
 section#about div.about-info .about-content .about-paragraph{
     line-height: 2;
 }
+section#about div.about-info .about-content .about-paragraph p span a{
+  color: rgb(255, 209, 152);
+}
 section#about div.about-info .about-content .about-links{
     padding-top: 30px;
 }
